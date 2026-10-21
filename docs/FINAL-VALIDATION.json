@@ -1,0 +1,31 @@
+{
+  "source_archive": "AI_Software_Security_Starter_Kit_v1.1.zip",
+  "original_preserved": true,
+  "original_files_count": 4,
+  "file_count": 18,
+  "relative_links": "PASS",
+  "original_file_integrity": "PASS",
+  "copyright_holder": "Muhammad Noman Siddique",
+  "license": "MIT \u2014 root LICENSE present",
+  "ownership_rights": "NOT INDEPENDENTLY VERIFIED",
+  "publication": "NOT AUTHORIZED",
+  "files": {
+    "SECURITY.md": "ff5c37cfca89a5dab8566dc3b8fe7a160c865121aef4c44c67706a990bed00e1",
+    "CHANGELOG.md": "a9623ac149d20fa5c1dbb9c9db02fa292633a9b6553f3d4f94441a02869c3b64",
+    "LICENSE": "9653f2367948c292afd7d8f59c2c4455de10e353d66b9b83e4689b35e952e4f0",
+    "README.md": "abdfa94c68a61adea0117e5626fd13aab383281712c642e342d71df5fd3a64fe",
+    "toolkit/01_AI_Software_Security_Standard.md": "f627223098f53f0861ef2f88a68e3f08ca9e1fe966afd0f646c2cb1f9cfc5537",
+    "toolkit/03_SECURITY_TEST_INSTRUCTIONS.txt": "41ab9227f7e58d4a032c9c2d09930d75118e0e09f211e972efaec79ddef0da95",
+    "toolkit/02_AI_Instructions.txt": "d89fd614636266fb9b16be12d25353ad5f46642a56a287d59c8206574d1d814e",
+    "toolkit/README_START_HERE.txt": "5435dcfce7f1f27c7d10be33cbdc58b944a270c2286367af40a44855f8d44a2d",
+    "examples/SECURITY_RELEASE_CHECKLIST.md": "cf4a8726fd85c730e11f00069812b8d0fe4d56ad71beac9aae2d0bdc02cfd662",
+    "examples/EXISTING_APPLICATION_AUDIT.md": "291ff674f3f55929159c7453a3dbc3e5c692d3d2ba47b3f3e574bc10ff9a3813",
+    "examples/NEW_APPLICATION_WORKFLOW.md": "bd55e2ea0ba486d46ffc40ea9a6187c61eb57d80925136701cdefc0d5320bd8d",
+    "docs/SECURITY_ACCEPTANCE_CRITERIA.md": "a79978adffc51a5886bdf4f69b22f2533dbef759e5ece3568e3a562f11376b4d",
+    "docs/LICENSING-REVIEW.md": "05fac43562b8fa561b72fdb216fa413907622e108cbdcc15b03088d22a6f369b",
+    "docs/REFERENCES.md": "545771bb92d201d0199653f942854adb95d080d6c6e8e22b312a09b470b52e78",
+    "docs/TOOL_COMPATIBILITY.md": "6ca3d607d3bf6195ce5e57433ad0bcd92c000ea3238e56f112a73eed427fce8c",
+    "docs/PUBLICATION-REVIEW.md": "6c5f9ec327f295387648364c38e436c4012929bd7f1c0f19d18cb6f59912f663",
+    "docs/SOURCE_MANIFEST.json": "7bca851484aa684bdcd888690f11979fab05a5a7c515b817d76dcbc89e102499"
+  }
+}

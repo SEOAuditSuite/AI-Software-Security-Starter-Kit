@@ -1,0 +1,31 @@
+AI SOFTWARE SECURITY — COPY/PASTE INSTRUCTIONS
+Version 1.1
+
+HOW TO USE
+Upload/attach 01_AI_Software_Security_Standard.md in the SAME chat, or add it to the current ChatGPT Project's sources, BEFORE sending the relevant prompt below. An AI cannot read a document that is only stored on your computer or mentioned by filename. If you cannot attach files, paste the full standard into the conversation before this instruction. Ask the AI to confirm it can actually access and read the standard. If unavailable, it must say so and must not claim compliance.
+
+============================================================
+A. NEW SOFTWARE — PASTE INTO ANY NEW CHAT
+============================================================
+I am building a new software application. Read the attached file `01_AI_Software_Security_Standard.md` completely and treat it as the mandatory secure-development standard for this chat. Confirm that you can access its content; do not pretend to have read it if you cannot. Apply the standard proportionately to this application's real architecture from design through implementation and verification. Use the acceptance and release gates in Section 9. Before coding, identify app purpose, stack, data flows, exposed endpoints, trust boundaries and applicable controls. Use secure defaults, protect secrets and personal data, enforce server-side authorization, validate inputs, harden external requests, and use independent tests/scanners as applicable. Do not access live secrets, run attacks on third parties, make unapproved external changes, purchase services, or deploy without my explicit approval. Distinguish planned, implemented, tested and untested controls. Speak to me in Roman Urdu; write code, documents, comments and reports in professional English. My software idea is: [WRITE IDEA HERE].
+
+============================================================
+B. EXISTING SOFTWARE — PASTE INTO ANY NEW CHAT
+============================================================
+I want to assess or improve an existing software project. Read the attached file `01_AI_Software_Security_Standard.md` completely and confirm that you can actually access it. Start READ-ONLY: identify project/version, repository location, branch, commit, architecture, current restrictions, deployment exposure and existing tests. Do not assume vulnerabilities exist. Compare findings with the actual baseline, preserve functionality, and propose minimal, evidence-backed fixes and regression tests. Do not modify code, repository settings, CI/CD, secrets, deployments, or production data without explicit approval. Do not test third-party or production targets. Speak Roman Urdu with me; produce code, security reports and professional deliverables in English. My existing project or repository is: [WRITE NAME OR LINK HERE].
+
+============================================================
+C. CHATGPT PROJECT — ADD TO PROJECT INSTRUCTIONS
+============================================================
+For all software development in this Project, follow the attached Project source file `01_AI_Software_Security_Standard.md` as the mandatory secure development and verification standard. First confirm the file is available. For existing applications perform a read-only baseline assessment before proposing changes. Enforce applicable OWASP controls, independent scans, targeted security regression tests and manual evidence review. Never claim security based on an AI-only review. Require my explicit approval before modifying existing repositories, configuration or deployments. Explain decisions to me in Roman Urdu; keep technical artifacts professional English. If the file is missing or inaccessible, ask for it rather than claiming it was read.
+
+============================================================
+D. AFTER WORK — SECURITY HANDOFF / RELEASE REVIEW
+============================================================
+Using the attached security standard, execute the applicable test plan in `03_SECURITY_TEST_INSTRUCTIONS.txt` (if authorized), then produce a concise security verification report: applicable checks; confirmed/suspected/not-tested/N/A findings; actual scan and test evidence; regressions; outstanding risks; and PASS, BLOCKED or CONDITIONAL for the defined scope only. Clearly distinguish what you proposed from what you executed. If checks were not run, mark NOT TESTED. Do not deploy or publish without my approval.
+
+
+============================================================
+E. FINAL RELEASE DECISION — AFTER SECURITY TESTING
+============================================================
+Use Section 9 of `01_AI_Software_Security_Standard.md` and `03_SECURITY_TEST_INSTRUCTIONS.txt` to produce an evidence-based release decision for the exact tested commit and environment. Provide the test matrix, passed/failed/not-run counts, blocking issues, open risks, functionality regression results and one decision: PASS — Release Candidate Security Verified; FAIL — Release Blocked; or INCOMPLETE — Verification Pending. Do not conflate test completion with deployment permission. Seek my explicit approval before any release, merge or deployment.

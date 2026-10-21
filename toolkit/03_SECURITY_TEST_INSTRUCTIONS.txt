@@ -1,0 +1,32 @@
+AI SOFTWARE SECURITY — TEST EXECUTION & ACCEPTANCE PROMPT
+Version 1.1 | Copy into the SAME chat where the actual source code is accessible.
+
+SECURITY TEST — READ-ONLY FIRST (COPY THIS)
+
+Read `01_AI_Software_Security_Standard.md` in full, especially Section 9. Confirm you actually accessed it. Inspect the available application source, exact version/commit, architecture, configuration surfaces and existing test suite. Start read-only; do not edit, install packages, run active security tests, or connect to live services until I authorize the specific actions and environment.
+
+Prepare a scope-specific SECURITY TEST MATRIX listing:
+- Risk/control and relevant endpoint/component
+- Planned scanner or manual/automated test
+- Synthetic fixture/test data needed
+- Expected secure outcome
+- Execution permissions and target environment
+- Evidence to capture
+- Applicable / N/A (with reason)
+
+After approval, run applicable security tests on local or explicitly authorized isolated resources, using synthetic accounts and fake secrets. Check at least where applicable: credential exposure (Gitleaks or equivalent); dependencies (OSV/Dependabot); code analysis (CodeQL/Semgrep or equivalent); sensitive data in logs/responses; authentication and object/function authorization with two synthetic user roles; safe exception responses; input handling and outbound HTTP/SSRF boundaries; rate limiting and resource limits; payment price integrity and verified callbacks; isolation and cleanup of background/browser processes; existing unit/integration/browser regressions.
+
+Do not claim a scanner was run unless tool output exists. Do not expose production secrets or private user records. No third-party attacks or production stress tests. Do not change live configurations, merge, deploy, or apply fixes without my separate approval.
+
+When testing is complete, issue a SECURITY VERIFICATION REPORT in professional English with: scope and commit; executed checks and exact evidence; PASS/FAIL/NOT RUN/N/A per control; confirmed issues vs suspected false positives; test counts; unresolved Critical/High issues; regressions; residual risks and exclusions. Apply the strict release gate:
+
+PASS — Release Candidate Security Verified: mandatory applicable scoped checks passed, no unresolved confirmed Critical/High issue, baseline regressions passed, residual risks recorded.
+FAIL — Release Blocked: confirmed Critical/High or essential security/functional test fails.
+INCOMPLETE — Verification Pending: missing essential checks, execution permission, environment verification, or evidence.
+
+PASS is an evidence-based acceptance for a defined scope, not permission to deploy. Always ask for my separate approval before release.
+
+Speak Roman Urdu with me; produce the matrix, results, logs summaries and deliverables in professional English.
+
+AFTER A FAILURE — SEPARATE APPROVAL MESSAGE
+"Propose the smallest safe fixes and focused regression tests for the confirmed findings. Explain what will change and what will remain untouched. Do not modify code until I approve the implementation scope. After authorization, re-run failing security tests and affected functional regressions, then issue a new evidence-based release decision."

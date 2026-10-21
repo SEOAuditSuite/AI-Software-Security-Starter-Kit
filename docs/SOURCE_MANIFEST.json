@@ -1,0 +1,12 @@
+{
+  "source_archive": "AI_Software_Security_Starter_Kit_v1.1.zip",
+  "source_archive_sha256": "d75f706f470d489dbb7869971a0db434ebb75693ed866cb6ba50229d43458bb6",
+  "preservation": "original files copied byte-for-byte",
+  "original_files_sha256": {
+    "01_AI_Software_Security_Standard.md": "f627223098f53f0861ef2f88a68e3f08ca9e1fe966afd0f646c2cb1f9cfc5537",
+    "02_AI_Instructions.txt": "d89fd614636266fb9b16be12d25353ad5f46642a56a287d59c8206574d1d814e",
+    "03_SECURITY_TEST_INSTRUCTIONS.txt": "41ab9227f7e58d4a032c9c2d09930d75118e0e09f211e972efaec79ddef0da95",
+    "README_START_HERE.txt": "5435dcfce7f1f27c7d10be33cbdc58b944a270c2286367af40a44855f8d44a2d"
+  },
+  "publication_status": "prepared_not_authorized"
+}
