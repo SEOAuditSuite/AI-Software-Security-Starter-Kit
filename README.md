@@ -1,6 +1,6 @@
 # AI Software Security Starter Kit
 
-**Version 1.1 · Security workflow and governance toolkit · Pre-publication candidate**
+**Version 1.1 · Security workflow and governance toolkit · Public repository**
 
 Reusable security standards, AI coding instructions, verification workflows, and evidence-based release gates for AI-assisted software development.
 
